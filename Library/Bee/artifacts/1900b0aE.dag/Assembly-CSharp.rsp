@@ -402,8 +402,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/FastScriptReload/Samples/Basic/Scripts/FunctionLibrary.cs"
 "Assets/FastScriptReload/Samples/Basic/Scripts/Graph.cs"
-"Assets/Scripts/Mesh Generator.cs"
+"Assets/Scripts/RenderHandler.cs"
 "Assets/Scripts/World.cs"
+"Assets/Scripts/WorldChunk.cs"
 -langversion:9.0
 /deterministic
 /optimize+

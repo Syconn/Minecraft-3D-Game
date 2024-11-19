@@ -66,9 +66,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\World.cs" />
-    <Compile Include="Assets\Scripts\Mesh Generator.cs" />
+    <Compile Include="Assets\Scripts\RenderHandler.cs" />
     <Compile Include="Assets\FastScriptReload\Samples\Basic\Scripts\Graph.cs" />
     <Compile Include="Assets\FastScriptReload\Samples\Basic\Scripts\FunctionLibrary.cs" />
+    <Compile Include="Assets\Scripts\WorldChunk.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\RoslynLicense.txt" />
