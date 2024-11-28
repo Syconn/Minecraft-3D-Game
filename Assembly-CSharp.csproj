@@ -66,37 +66,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\World.cs" />
-    <Compile Include="Assets\Scripts\RenderHandler.cs" />
-    <Compile Include="Assets\FastScriptReload\Samples\Basic\Scripts\Graph.cs" />
-    <Compile Include="Assets\FastScriptReload\Samples\Basic\Scripts\FunctionLibrary.cs" />
-    <Compile Include="Assets\Scripts\WorldChunk.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\RoslynLicense.txt" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Collections.Immutable.FSR.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Harmony\HarmonyLicense.txt" />
-    <None Include="Assets\FastScriptReload\Plugins\ImmersiveVrToolsCommon\ImmersiveVRTools.Common.Runtime.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\Microsoft.CodeAnalysis.CSharp.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Threading.Tasks.Extensions.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\System.Reflection.Metadata.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\ImmersiveVrToolsCommon\ImmersiveVRToolsCommonLicense.txt" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Reflection.Metadata.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\Microsoft.CSharp.dll.IMPORTANT.txt.txt" />
-    <None Include="Assets\FastScriptReload\Samples\Basic\Point\Point Surface.shader" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\Microsoft.CodeAnalysis.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Runtime.CompilerServices.Unsafe.xml" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\RoslynLicense.txt" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Reflection.Metadata.xml" />
-    <None Include="Assets\FastScriptReload\Plugins\Harmony\net48\0Harmony.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Harmony\net48\0Harmony.xml" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\System.Threading.Tasks.Extensions.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\Microsoft.CodeAnalysis.CSharp.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\Microsoft.CodeAnalysis.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Runtime.CompilerServices.Unsafe.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\ImmersiveVrToolsCommon\ImmersiveVRTools.Common.Editor.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\Microsoft.CSharp.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Collections.Immutable.dll" />
-    <None Include="Assets\FastScriptReload\Plugins\Roslyn\2019+\System.Collections.Immutable.dll" />
+    <Compile Include="Assets\Scripts\Data\BlockTypes.cs" />
+    <Compile Include="Assets\Scripts\Renderers\ChunkRenderer.cs" />
+    <Compile Include="Assets\Scripts\Handlers\ChunkHandler.cs" />
+    <Compile Include="Assets\Scripts\Data\Chunk.cs" />
+    <Compile Include="Assets\Scripts\Renderers\RenderHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -573,10 +547,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>Assets\FastScriptReload\Plugins\Roslyn\2021+\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
